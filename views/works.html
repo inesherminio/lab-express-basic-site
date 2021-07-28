@@ -5,8 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabriel Garcia Marquez</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
   </head>
   <body>
-    <h1>Works page</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Gabriel Garcia Marquez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/photos">Photo Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="container-works">
+      <div class="card" style="width: 25rem">
+        <img
+          src="https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9780241968581&w=&h=310"
+          class="card-img-top"
+          alt="100 Years of Solitude book cover"
+        />
+        <div class="card-body">
+          <h5 class="card-title">One Hundred Years of Solitude</h5>
+          <p class="card-text">
+            One Hundred Years of Solitude follows the epic of the foundation,
+            greatness and decline of the fictitious village of Macondo and its
+            pioneering and most illustrious family, the Buendias, who live their
+            lives struggling against failings of the Colombian republic and the
+            ordeals of fate, time and existence.
+          </p>
+          <a href="#" class="btn btn-primary">Buy!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem">
+        <img
+          src="https://static.fnac-static.com/multimedia/PT/images_produits/PT/ZoomPE/7/6/4/9780141032467/tsp20130123200624/Chronicle-of-a-Death-Foretold.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Chronicle of a Death Foretold</h5>
+          <p class="card-text">
+            The Vicario brothers announce their murderous intent to all those
+            they meet; the rumor finally alerting their entire village, except
+            for Santiago Nasar. Yet at dawn that morning, Santiago Nasar is
+            stabbed outside his house. Why couldn’t the crime have been
+            prevented?
+          </p>
+          <a href="#" class="btn btn-primary">Buy!</a>
+        </div>
+      </div>
+      <div class="card" style="width: 25rem">
+        <img
+          src="https://covers.openlibrary.org/b/id/8299651-L.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Love in the Time of Cholera</h5>
+          <p class="card-text">
+            At the end of 19th century in a small Caribbean town, a poor young
+            telegrapher and a charming schoolgirl swear to marry and to live a
+            life of everlasting love. For three years they live just for one
+            another, but then Fermina marries Juvenal Urbino, a brilliant
+            doctor. Florentino, the betrayed lover, turns into an unrepentant
+            womanizer and tries to make a name and a fortune to merit the love
+            of Fermina, whom he will continue to love in secret for fifty years,
+            an emotion that drives his life almost single-mindedly.
+          </p>
+          <a href="#" class="btn btn-primary">Buy!</a>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

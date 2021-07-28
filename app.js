@@ -1,8 +1,11 @@
 const express = require("express");
 const app = express();
 
+app.use(express.static("public"));
+app.set("views", __dirname + "/views");
+
 app.get("/", (request, response, next) => {
-  response.send("hello");
+  response.sendFile(__dirname + "/views/index.html");
 });
 
 app.get("/about", (request, response, next) => {

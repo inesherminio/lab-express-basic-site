@@ -1,0 +1,60 @@
+#ggm {
+  width: 45vw;
+}
+
+#quote {
+  width: 45vw;
+  margin-top: 30px;
+}
+
+#container-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#container-about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#about {
+  width: 45vw;
+}
+
+#container-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.card-img-top {
+  width: 20vw;
+  height: 60vh;
+  margin: 0 auto;
+  display: block;
+}
+
+#container-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.photo-gallery {
+  width: 40vw;
+  height: 40vh;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+}
